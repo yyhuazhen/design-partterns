@@ -2,9 +2,9 @@ package com.yhz.example.impl;
 
 import com.yhz.example.Operater;
 
-public class MinusOperaterImpl<Integer> implements Operater<Integer> {
+public class MinusOperaterImpl implements Operater {
     @Override
-    public Integer calculate(Integer srcOperand, Integer destOperand) {
-        return null;
+    public int calculate(int srcOperand, int destOperand) {
+        return srcOperand - destOperand;
     }
 }

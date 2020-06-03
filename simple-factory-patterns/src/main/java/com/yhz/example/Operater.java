@@ -1,5 +1,5 @@
 package com.yhz.example;
 
-public interface Operater<T> {
-    T calculate(T srcOperand,T destOperand);
+public interface Operater {
+    int calculate(int srcOperand,int destOperand) throws IllegalAccessException;
 }

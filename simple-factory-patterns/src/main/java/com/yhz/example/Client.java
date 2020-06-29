@@ -4,7 +4,7 @@ public class Client {
     public static void main(String[] args) {
         Operater operator = getOperator("-");
         try {
-            int result = operator.calculate(5, 8);
+            int result = operator.calculate(9, 8);
             System.out.println(result);
         } catch (IllegalAccessException e) {
             e.printStackTrace();

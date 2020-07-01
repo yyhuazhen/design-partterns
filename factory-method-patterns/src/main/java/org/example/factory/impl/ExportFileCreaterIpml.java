@@ -5,7 +5,7 @@ import org.example.api.impl.ExportDbFileApiImpl;
 import org.example.api.impl.ExportTxtFileApi;
 import org.example.factory.ExportFileCreater;
 
-public class ExportTxtFileCreater extends ExportFileCreater {
+public class ExportFileCreaterIpml extends ExportFileCreater {
     @Override
     public ExportFileApi creator(String single) {
         if (single.equals("rdb")) {

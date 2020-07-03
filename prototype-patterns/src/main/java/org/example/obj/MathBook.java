@@ -12,7 +12,7 @@ public class MathBook implements Cloneable {
         Object obj = null;
         try {
             //obj没有初始化 有个bug  但是能单独复制MathBook
-            super.clone();
+            obj = super.clone();
         } catch (CloneNotSupportedException e) {
             System.out.println("类找不到啦");
         }

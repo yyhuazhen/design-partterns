@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="abstract-factory-patterns" />
         <module name="factory-method-patterns" />
+        <module name="singleton-patterns" />
+        <module name="builder-patterns" />
+        <module name="prototype-patterns" />
         <module name="simple-factory-patterns" />
       </profile>
     </annotationProcessing>

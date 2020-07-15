@@ -16,7 +16,6 @@ public class FileLogOperateApiImpl implements LogOperateApi {
                 objIn = new ObjectInputStream(new BufferedInputStream(new FileInputStream(new File(logFilePath))));
                 list = (List<LogModel>) objIn.readObject();
             }
-            return null;
         } catch (Exception e) {
             e.printStackTrace();
         } finally {

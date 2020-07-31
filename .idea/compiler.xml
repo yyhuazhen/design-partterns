@@ -6,20 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="proxy-patterns" />
-        <module name="abstract-factory-patterns" />
-        <module name="factory-method-patterns" />
+        <module name="flywight-patterns" />
+        <module name="simple-factory-patterns" />
         <module name="singleton-patterns" />
         <module name="strategy-patterns" />
-        <module name="adapter-patterns" />
-        <module name="decorator-patterns" />
-        <module name="builder-patterns" />
         <module name="prototype-patterns" />
-        <module name="simple-factory-patterns" />
+        <module name="decorator-patterns" />
+        <module name="proxy-patterns" />
+        <module name="observer-patterns" />
+        <module name="chain-of-responsibility-patterns" />
+        <module name="factory-method-patterns" />
+        <module name="adapter-patterns" />
+        <module name="memento-patterns" />
+        <module name="iterator-patterns" />
+        <module name="abstract-factory-patterns" />
         <module name="composite-patterns" />
         <module name="facade-patterns" />
+        <module name="template-method-patterns" />
+        <module name="builder-patterns" />
+        <module name="commond-patterns" />
         <module name="bridge-patterns" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="proxy-patterns" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

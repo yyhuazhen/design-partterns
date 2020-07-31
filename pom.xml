@@ -21,6 +21,14 @@
       <module>strategy-patterns</module>
       <module>composite-patterns</module>
       <module>facade-patterns</module>
+      <module>proxy-patterns</module>
+        <module>flywight-patterns</module>
+        <module>observer-patterns</module>
+      <module>chain-of-responsibility-patterns</module>
+      <module>template-method-patterns</module>
+        <module>memento-patterns</module>
+        <module>commond-patterns</module>
+      <module>iterator-patterns</module>
     </modules>
 
     <name>yhz-design-patterns</name>

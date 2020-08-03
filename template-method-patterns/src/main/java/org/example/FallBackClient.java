@@ -25,6 +25,7 @@ public class FallBackClient {
                 return fblt.match(lm, dblm);
             }
         });
+
         System.out.println("普通用户登录" + flag);
         LoginModel worker = new LoginModel("小明A", "xiaomingA", "4");
         boolean flag1 = lt.login(worker, new FallBack() {
@@ -43,8 +44,8 @@ public class FallBackClient {
                 return fblt.match(lm, dblm);
             }
         });
-        System.out.println("员工登录" + flag1);
 
+        System.out.println("员工登录" + flag1);
     }
 
     private static void init() {
